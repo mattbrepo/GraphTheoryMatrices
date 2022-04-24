@@ -51,7 +51,7 @@ eigenvector.centrality = function(g, t) {
 g1 <- graph( edges=c(1,2, 2,3, 3,1, 1,4, 1,5, 4,5, 4,6), n=6, directed=F ) 
 plot(g1)
 
-eigenvector.centrality(g1, 5)
+eigCent = eigenvector.centrality(g1, 5) # https://en.wikipedia.org/wiki/Eigenvector_centrality
 A = as.matrix(as_adjacency_matrix(g1)) # Adjacency matrix
 C = A %*% t(A) # cocitation matrix (directed graph)
 B = t(A) %*% A # bibliographic coupling matrix (directed graph) - c_ij = # of vertices with edges pointing to both nodes i and j
