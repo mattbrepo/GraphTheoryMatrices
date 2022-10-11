@@ -1,5 +1,5 @@
 # GraphTheoryMatrices
-Graph Theory Matrices
+Graph Theory Matrices.
 
 **Language: R**
 
@@ -38,4 +38,4 @@ Given this graph:
 [6,]    0    0    0   -1    0    1
 ```
 
-The graph_theory_matrix.R contains many more matrices.
+The _graph\_theory\_matrix.R_ contains many more matrices.
